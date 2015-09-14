@@ -310,7 +310,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(&lt;)(code)(?:\s+[^&gt;]*)?(&gt;)</string>
+			<string>(&lt;)(code|file)(?:\s.+[^&gt;]*)?(&gt;)</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
@@ -335,7 +335,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(&lt;/)(code)(&gt;)</string>
+			<string>(&lt;/)(code|file)(&gt;)</string>
 			<key>name</key>
 			<string>markup.raw.dokuwiki</string>
 		</dict>

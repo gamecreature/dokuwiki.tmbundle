@@ -1,6 +1,17 @@
 # Installation
 
+## Textmate 
+
 You can install this bundle in TextMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
+
+## Sublime 3 - Max OS X
+
+You can install it in Sublime 3 by opening a terminal and going to:
+
+```sh
+	cd ~/Library/Application Support/Sublime Text 3/Packages/
+	git clone https://github.com/gamecreature/dokuwiki.tmbundle.git
+```
 
 # General
 
